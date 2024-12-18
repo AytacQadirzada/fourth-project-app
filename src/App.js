@@ -20,6 +20,7 @@ const App = () => {
   return (
     <div className="App">
       <Header />
+      <Main />
       <Routes>
         <Route
           path="/"
