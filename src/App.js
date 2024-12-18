@@ -22,7 +22,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route
-          path="/home"
+          path="/"
           element={
             <Main 
               movieData={movieData} 
