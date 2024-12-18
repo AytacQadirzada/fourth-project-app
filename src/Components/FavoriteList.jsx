@@ -9,6 +9,7 @@ const FavoriteList = ({ favoriteList, inputValue }) => {
       {favoriteList.length > 0 ? (
         <div className="favorite-list-container">
           <h2>{inputValue}</h2>
+          <div className="favorite-list-cards">
           {favoriteList.map((movie, index) => (
             <div className="favorite-item" key={index}>
               <p>{movie.title}</p>
@@ -16,6 +17,7 @@ const FavoriteList = ({ favoriteList, inputValue }) => {
             </div>
           ))}
           
+          </div>
           <button style={{color:'white'}}><a href="/">Home</a></button>
         </div>
       ) : (

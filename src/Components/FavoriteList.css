@@ -1,7 +1,7 @@
 .favorite-list-container{
     border: 1px solid #42e3d0;
     width: 1000px;
-    height: 75vh;
+    /* height: 75vh; */
     margin-top: 10px;
     color: white;
     margin-left: 275px;
@@ -21,8 +21,24 @@
 .favorite-list-container button{
     width: 75px;
     height: 35px;
-    margin-top: 10px;
+    margin-top: 5px;
     background-color: #42e3d0;
     border: 1px solid #42e3d0;
     border-radius: 10px;
+    margin-bottom: 10px;
+}
+.favorite-list-cards{
+    height: 370px;
+    overflow: auto;
+    color: white;
+    overflow-y: scroll;
+}
+
+.favorite-list-cards::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}
+
+.favorite-list-cards::-webkit-scrollbar-thumb {
+    background-color: transparent;
 }
