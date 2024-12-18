@@ -20,10 +20,9 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <Main />
       <Routes>
         <Route
-          path="/"
+          path="/home"
           element={
             <Main 
               movieData={movieData} 
